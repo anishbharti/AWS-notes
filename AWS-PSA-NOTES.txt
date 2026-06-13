@@ -484,6 +484,11 @@ Security Groups act like firewalls to define which incoming and outgoing traffic
 
 One Security Group can be assigned to multiple EC2 instances.
 
+Interview Ready Answer
+--------------------------
+
+A Security Group is a stateful virtual firewall attached to an EC2 instance. It controls inbound and outbound traffic. AWS provides a default security group in each VPC, but in production we typically create custom security groups and allow only the required ports such as 22 for SSH, 80 for HTTP, 443 for HTTPS, and 8080 for Spring Boot applications.
+
 -------------------------------------------------------------------------
 Creating Windows ec2 instance and connecting with it
 ###########################################################################
